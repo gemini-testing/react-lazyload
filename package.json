@@ -1,6 +1,6 @@
 {
   "name": "@gemini-testing/react-lazyload",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Lazyload your components, images or anything where performance matters.",
   "main": "lib/index.js",
   "scripts": {
