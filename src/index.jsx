@@ -239,8 +239,8 @@ class LazyLoad extends Component {
     checkVisible(this);
   }
 
-  shouldComponentUpdate() {
-    return this.visible;
+  shouldComponentUpdate(nextProps) {
+    return this.visible || this.props.placeholder !== nextProps.placeholder;
   }
 
   componentWillUnmount() {
